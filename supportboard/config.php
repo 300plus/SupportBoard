@@ -29,4 +29,9 @@ define('SB_DB_PORT', '');
 
 /* [extra] */
 
+// Load custom modules
+if (file_exists(__DIR__ . '/../modules/modules.php')) {
+    require_once(__DIR__ . '/../modules/modules.php');
+}
+
 ?>
